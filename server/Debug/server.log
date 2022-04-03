@@ -1,0 +1,4 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  serverDlg.cpp
+D:\网络编程\实现\聊天室\期末作品\server\serverDlg.cpp(4,10): fatal error C1853: “.\Debug\server.pch”预编译头文件来自编译器的其他版本，或者预编译头为 C++ 而在 C 中使用它(或相反)

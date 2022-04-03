@@ -1,0 +1,4 @@
+D:\网络编程\实现\聊天室\client\Debug\client.exe
+D:\网络编程\实现\聊天室\client\Debug\client.pdb
+D:\网络编程\实现\聊天室\期末作品\client\Debug\client.exe
+D:\网络编程\实现\聊天室\期末作品\client\Debug\client.pdb
