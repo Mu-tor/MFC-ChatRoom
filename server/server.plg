@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\张大福\AppData\Local\Temp\RSP89F3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/server.pdb" /debug /machine:I386 /out:"Debug/server.exe" /pdbtype:sept 
+".\Debug\AccessDB.obj"
+".\Debug\AddDlg.obj"
+".\Debug\AlterDlg.obj"
+".\Debug\MyDate.obj"
+".\Debug\server.obj"
+".\Debug\serverDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\server.res"
+]
+Creating command line "link.exe @"C:\Users\张大福\AppData\Local\Temp\RSP89F3.tmp""
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/server.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\AccessDB.sbr" ".\Debug\AddDlg.sbr" ".\Debug\AlterDlg.sbr" ".\Debug\MyDate.sbr" ".\Debug\server.sbr" ".\Debug\serverDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

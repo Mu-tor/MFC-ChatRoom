@@ -1,0 +1,279 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\server.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\server.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 server"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "server 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2020",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SERVER_DIALOG DIALOGEX 0, 0, 472, 235
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "IP：",IDC_STATIC,33,25,36,12
+    EDITTEXT        IDC_EDIT1,193,22,51,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "启动",IDC_BUTTON1,258,23,25,14
+    LTEXT           "用户列表：",IDC_STATIC,356,21,46,19
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,345,41,120,145
+    PUSHBUTTON      "添加小伙伴",IDC_BUTTON3,415,191,42,18
+    EDITTEXT        IDC_EDIT2,26,55,305,130,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "端口：",IDC_STATIC,165,25,25,12
+    EDITTEXT        IDC_EDIT5,59,21,72,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,28,199,284,17,ES_AUTOHSCROLL
+    PUSHBUTTON      "发送公告",IDC_BUTTON4,320,197,49,20
+END
+
+IDD_AlterDlg DIALOG 0, 0, 241, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "修改信息",IDOK,46,137,50,14
+    LTEXT           "昵称:",IDC_STATIC,58,27,26,16
+    EDITTEXT        IDC_EDIT1,95,27,59,16,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "密码:",IDC_STATIC,33,53,26,16
+    EDITTEXT        IDC_EDIT2,72,53,103,16,ES_AUTOHSCROLL
+    LTEXT           "密保问题:",IDC_STATIC,15,76,44,16
+    EDITTEXT        IDC_EDIT3,72,76,103,16,ES_AUTOHSCROLL
+    LTEXT           "答案:",IDC_STATIC,33,103,26,16
+    EDITTEXT        IDC_EDIT4,72,103,103,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "删除用户",IDC_BUTTON1,138,137,52,14
+END
+
+IDD_DIALOG1 DIALOG 0, 0, 236, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "添加",IDOK,43,142,50,14
+    PUSHBUTTON      "取消",IDCANCEL,141,142,50,14
+    LTEXT           "昵称:",IDC_STATIC,34,27,25,13
+    EDITTEXT        IDC_EDIT1,68,25,100,17,ES_AUTOHSCROLL
+    LTEXT           "密码:",IDC_STATIC,33,55,25,13
+    EDITTEXT        IDC_EDIT2,68,51,100,17,ES_AUTOHSCROLL
+    LTEXT           "密保问题:",IDC_STATIC,17,77,42,13
+    EDITTEXT        IDC_EDIT3,68,75,100,17,ES_AUTOHSCROLL
+    LTEXT           "答案:",IDC_STATIC,34,107,25,13
+    EDITTEXT        IDC_EDIT4,68,105,100,17,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "server Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "server"
+            VALUE "LegalCopyright", "版权所有 (C) 2020"
+            VALUE "OriginalFilename", "server.EXE"
+            VALUE "ProductName", "server 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SERVER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 465
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+        HORZGUIDE, 37
+    END
+
+    IDD_AlterDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        VERTGUIDE, 58
+        VERTGUIDE, 71
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+        HORZGUIDE, 27
+        HORZGUIDE, 43
+        HORZGUIDE, 137
+        HORZGUIDE, 151
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        VERTGUIDE, 59
+        VERTGUIDE, 68
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+        HORZGUIDE, 42
+        HORZGUIDE, 156
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SERVER_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 server(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\server.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

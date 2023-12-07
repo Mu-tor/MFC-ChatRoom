@@ -1,0 +1,12 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  LoginDlg.cpp
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(75,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(80,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(85,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(90,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(95,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(100,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\MyDate.h(104,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\client\LoginDlg.cpp(90,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Study\网络编程\实现\聊天室\newproject\client\LoginDlg.cpp(167,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  client.vcxproj -> D:\Study\网络编程\实现\聊天室\newproject\client\Debug\client.exe

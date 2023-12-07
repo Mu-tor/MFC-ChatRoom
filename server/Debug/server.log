@@ -1,0 +1,29 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  serverDlg.cpp
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(75,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(80,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(85,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(90,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(95,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(100,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\MyDate.h(104,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(279,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(289,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(314,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(345,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(363,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(383,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(406,6): warning C4101: “x”: 未引用的局部变量
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(543,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(546,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(576,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(579,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(581,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(804,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(908,36): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(650): warning C4715: “findUser”: 不是所有的控件路径都返回值
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(832): warning C4715: “offline”: 不是所有的控件路径都返回值
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(592): warning C4172: 返回局部变量或临时变量的地址: buff
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(881): warning C4715: “sendUser”: 不是所有的控件路径都返回值
+D:\Study\网络编程\实现\聊天室\newproject\server\serverDlg.cpp(919): warning C4715: “uplist”: 不是所有的控件路径都返回值
+  server.vcxproj -> D:\Study\网络编程\实现\聊天室\newproject\server\Debug\server.exe
